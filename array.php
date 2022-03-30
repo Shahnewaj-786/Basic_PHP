@@ -37,5 +37,65 @@ echo ("<br>");
 echo $name [1];
 
 
+//3 types of array 
+
+//--> Index array ; --> accociative array; --> multi-dimentional array 
+
+//Index array [we can not provide index number of index array]
+
+$food = ["banana", "coco", "Hen", "Egg", "Tea"];
+
+//Accociative array [we can fix or provide index number]
+
+$student_number = [
+    'class 1' => '100',
+    'class 2' =>'70',
+    'class 3' => '600',
+    'class 4' => '10',
+    'class 5' => '150',
+];
+
+
+//Multi-simentional array [array inside array]
+
+$meta =[
+    'meta-1' => ['yes', 'true', 'checked', 'ok'],
+    'meta-2' => ['no', 'false', 'unchecked', 'neg'],
+];
+
+echo "<pre>";
+print_r($food);
+echo "</pre>";
+
+echo ("<br>");
+
+echo "<pre>";
+print_r($student_number);
+echo "</pre>";
+
+echo ("<br>");
+
+echo "<pre>";
+print_r($meta);
+echo "</pre>";
+
+echo ("<hr>");
+
+echo "<pre>";
+var_dump($food);
+echo "</pre>";
+
+echo ("<br>");
+
+echo "<pre>";
+var_dump($student_number);
+echo "</pre>";
+
+echo ("<br>");
+
+echo "<pre>";
+var_dump($meta);
+echo "</pre>";
+
 
 ?>
