@@ -98,4 +98,8 @@ var_dump($meta);
 echo "</pre>";
 
 
+//we can search data in multi-dimentional array
+echo ("<br>");
+echo $meta ['meta-1'] ['2'];
+
 ?>
